@@ -1,0 +1,24 @@
+MOKU JUST NOW
+
+選択肢			入るデーター
+OK					true  ０
+NG					false １
+
+YかNの２択
+ここは積極的に公開を狙いたいのでデフォ値はOK = trueで
+２択といえばboollean
+
+MJNの選択肢を保存するカラムをまだ作ってなかった
+★worksテーブルはpublicカラムでworkそのものの公開非公開を、
+pick_upカラムでpick_upへの公開非公開を制御
+
+
+mokus#newでは？MJNに載せるかどうか
+mjn_public← これにしよう
+mjn_open
+
+
+MJNを設定する部分は？今apprication_herlperにメソッド書いたけどそこまでいる？
+→mokus#newだけっぽい。
+apprication_helperである必要はない。
+mokus_helperにかこう
